@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests.TestJuguete" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-21T15:00:55" hostname="PRACTIAARNB823" time="12.894">
+  <properties/>
+  <testcase name="testJuguete" classname="Tests.TestJuguete" time="12.894"/>
+  <system-out><![CDATA[12:00:55 | INFO  - TEST :: STARTING :: testJuguete
+12:00:55 | INFO  - ------------------Test Started------------------
+12:00:55 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+12:00:55 | INFO  - Creating a new instance of chrome DriverWeb
+12:00:57 | INFO  - DriverWeb for chrome has been created.
+12:00:57 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:01:05 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:01:06 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Juguetes')]
+12:01:06 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Juguetes')]
+12:01:06 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Cuarto')]
+12:01:06 | INFO  - Chequeando existencia del elemento By.xpath: //title
+12:01:07 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Cuarto')]
+12:01:08 | INFO  - Texto Obtenido: 'Cuarto del Bebé'
+12:01:08 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+12:01:08 | INFO  - Texto Obtenido: '27.909 resultados'
+12:01:08 | INFO  - Asserts correctos
+12:01:08 | INFO  - ------------------Test Finished------------------
+12:01:08 | INFO  - TEST :: SUCCEDED :: testJuguete
+]]></system-out>
+  <system-err><![CDATA[oct 21, 2019 12:00:55 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 48788
+Only local connections are allowed.
+oct 21, 2019 12:00:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+</testsuite>

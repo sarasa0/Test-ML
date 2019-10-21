@@ -1,0 +1,93 @@
+2019-10-21 12:00:09 | INFO  - TEST :: STARTING :: testBelleza
+2019-10-21 12:00:09 | INFO  - ------------------Test Started------------------
+2019-10-21 12:00:09 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:00:09 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:00:13 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:00:14 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:00:19 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:00:24 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Belleza')]
+2019-10-21 12:00:30 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:00:31 | INFO  - Obteniendo texto del elemento By.xpath: //p[contains(text(),'Tus preferidos')]
+2019-10-21 12:00:31 | INFO  - Texto Obtenido: 'TUS PREFERIDOS'
+2019-10-21 12:00:31 | INFO  - Chequeando existencia del elemento By.xpath: //h3[contains(text(),'Fragancias')]
+2019-10-21 12:00:31 | INFO  - moviendome al elemento By.xpath: //h3[contains(text(),'Fragancias')]
+2019-10-21 12:00:41 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:00:45 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Perfumes')]
+2019-10-21 12:00:47 | INFO  - Texto Obtenido: 'Perfumes Nuevo'
+2019-10-21 12:00:47 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:00:47 | INFO  - Texto Obtenido: '1.627 resultados'
+2019-10-21 12:00:47 | INFO  - Asserts correctos
+2019-10-21 12:00:47 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:00:47 | INFO  - TEST :: SUCCEDED :: testBelleza
+2019-10-21 12:00:47 | INFO  - TEST :: STARTING :: testHogar
+2019-10-21 12:00:47 | INFO  - ------------------Test Started------------------
+2019-10-21 12:00:47 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:00:47 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:00:50 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:00:50 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:00:52 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:00:52 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+2019-10-21 12:00:52 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+2019-10-21 12:00:52 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Climatizaci')]
+2019-10-21 12:00:53 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:00:54 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Clima')]
+2019-10-21 12:00:54 | INFO  - Texto Obtenido: 'Climatización'
+2019-10-21 12:00:54 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:00:54 | INFO  - Texto Obtenido: '62.196 resultados'
+2019-10-21 12:00:54 | INFO  - Asserts correctos
+2019-10-21 12:00:54 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:00:54 | INFO  - TEST :: SUCCEDED :: testHogar
+2019-10-21 12:00:55 | INFO  - TEST :: STARTING :: testJuguete
+2019-10-21 12:00:55 | INFO  - ------------------Test Started------------------
+2019-10-21 12:00:55 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:00:55 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:00:57 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:00:57 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:01:05 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:01:06 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Juguetes')]
+2019-10-21 12:01:06 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Juguetes')]
+2019-10-21 12:01:06 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Cuarto')]
+2019-10-21 12:01:06 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:01:07 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Cuarto')]
+2019-10-21 12:01:08 | INFO  - Texto Obtenido: 'Cuarto del Bebé'
+2019-10-21 12:01:08 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:01:08 | INFO  - Texto Obtenido: '27.909 resultados'
+2019-10-21 12:01:08 | INFO  - Asserts correctos
+2019-10-21 12:01:08 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:01:08 | INFO  - TEST :: SUCCEDED :: testJuguete
+2019-10-21 12:01:09 | INFO  - TEST :: STARTING :: testTecnologia
+2019-10-21 12:01:09 | INFO  - ------------------Test Started------------------
+2019-10-21 12:01:09 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:01:09 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:01:11 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:01:11 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:01:13 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:01:13 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+2019-10-21 12:01:17 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+2019-10-21 12:01:17 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]
+2019-10-21 12:01:17 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:01:19 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Celulares')]
+2019-10-21 12:01:20 | INFO  - Texto Obtenido: 'Celulares y Smartphones'
+2019-10-21 12:01:20 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:01:21 | INFO  - Texto Obtenido: '92.177 resultados'
+2019-10-21 12:01:21 | INFO  - Asserts correctos
+2019-10-21 12:01:21 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:01:21 | INFO  - TEST :: SUCCEDED :: testTecnologia
+2019-10-21 12:01:21 | INFO  - TEST :: STARTING :: testTextil
+2019-10-21 12:01:21 | INFO  - ------------------Test Started------------------
+2019-10-21 12:01:21 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:01:21 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:01:24 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:01:24 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:01:29 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:01:29 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Herramientas')]
+2019-10-21 12:01:30 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Herramientas')]
+2019-10-21 12:01:30 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Textil')]
+2019-10-21 12:01:30 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:01:31 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Textil')]
+2019-10-21 12:01:32 | INFO  - Texto Obtenido: 'Industria Textil'
+2019-10-21 12:01:32 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:01:32 | INFO  - Texto Obtenido: '26.296 resultados'
+2019-10-21 12:01:32 | INFO  - Asserts correctos
+2019-10-21 12:01:32 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:01:32 | INFO  - TEST :: SUCCEDED :: testTextil

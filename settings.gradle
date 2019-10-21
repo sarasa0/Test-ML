@@ -1,0 +1,20 @@
+rootProject.name = 'Automation-ML'
+
+// Web
+assignProperty('browserName', 'chrome')
+//assignProperty('browserName', 'firefox')
+
+assignProperty('appDefaultWait', '60')
+
+assignProperty('testFilesPath','\\testFiles')
+
+assignProperty('firefoxDriverName','geckodriver.exe')
+assignProperty('chromeDriverName','chromedriver.exe')
+assignProperty('driverFolderBase','SeleniumDrivers')
+
+
+def assignProperty(String key, Object defaultValue){
+    if(System.getProperty(key) == null){
+        System.setProperty(key, defaultValue)
+    }
+}

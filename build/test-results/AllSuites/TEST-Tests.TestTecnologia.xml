@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests.TestTecnologia" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-21T15:01:09" hostname="PRACTIAARNB823" time="11.94">
+  <properties/>
+  <testcase name="testTecnologia" classname="Tests.TestTecnologia" time="11.94"/>
+  <system-out><![CDATA[12:01:09 | INFO  - TEST :: STARTING :: testTecnologia
+12:01:09 | INFO  - ------------------Test Started------------------
+12:01:09 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+12:01:09 | INFO  - Creating a new instance of chrome DriverWeb
+12:01:11 | INFO  - DriverWeb for chrome has been created.
+12:01:11 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:01:13 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:01:13 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+12:01:17 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+12:01:17 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]
+12:01:17 | INFO  - Chequeando existencia del elemento By.xpath: //title
+12:01:19 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Celulares')]
+12:01:20 | INFO  - Texto Obtenido: 'Celulares y Smartphones'
+12:01:20 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+12:01:21 | INFO  - Texto Obtenido: '92.177 resultados'
+12:01:21 | INFO  - Asserts correctos
+12:01:21 | INFO  - ------------------Test Finished------------------
+12:01:21 | INFO  - TEST :: SUCCEDED :: testTecnologia
+]]></system-out>
+  <system-err><![CDATA[oct 21, 2019 12:01:09 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 43764
+Only local connections are allowed.
+oct 21, 2019 12:01:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+</testsuite>
