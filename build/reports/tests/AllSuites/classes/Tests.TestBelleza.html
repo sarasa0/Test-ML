@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">37.896s</div>
+<div class="counter">16.582s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,12 @@
 </thead>
 <tr>
 <td class="success">testBelleza</td>
-<td class="success">37.896s</td>
+<td class="success">8.390s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBelleza</td>
+<td class="success">8.192s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -90,38 +95,65 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>12:00:09 | INFO  - TEST :: STARTING :: testBelleza
-12:00:09 | INFO  - ------------------Test Started------------------
-12:00:09 | INFO  - Getting the page http://www.MercadoLibre.com.ar
-12:00:09 | INFO  - Creating a new instance of chrome DriverWeb
-12:00:13 | INFO  - DriverWeb for chrome has been created.
-12:00:14 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
-12:00:19 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
-12:00:24 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Belleza')]
-12:00:30 | INFO  - Chequeando existencia del elemento By.xpath: //title
-12:00:31 | INFO  - Obteniendo texto del elemento By.xpath: //p[contains(text(),'Tus preferidos')]
-12:00:31 | INFO  - Texto Obtenido: 'TUS PREFERIDOS'
-12:00:31 | INFO  - Chequeando existencia del elemento By.xpath: //h3[contains(text(),'Fragancias')]
-12:00:31 | INFO  - moviendome al elemento By.xpath: //h3[contains(text(),'Fragancias')]
-12:00:41 | INFO  - Chequeando existencia del elemento By.xpath: //title
-12:00:45 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Perfumes')]
-12:00:47 | INFO  - Texto Obtenido: 'Perfumes Nuevo'
-12:00:47 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
-12:00:47 | INFO  - Texto Obtenido: '1.627 resultados'
-12:00:47 | INFO  - Asserts correctos
-12:00:47 | INFO  - ------------------Test Finished------------------
-12:00:47 | INFO  - TEST :: SUCCEDED :: testBelleza
+<pre>12:07:22 | INFO  - TEST :: STARTING :: testBelleza
+12:07:22 | INFO  - ------------------Test Started------------------
+12:07:22 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+12:07:22 | INFO  - Creating a new instance of chrome DriverWeb
+12:07:26 | INFO  - DriverWeb for chrome has been created.
+12:07:26 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:07:27 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:07:28 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Belleza')]
+12:07:28 | INFO  - Chequeando existencia del elemento By.xpath: //title
+12:07:28 | INFO  - Obteniendo texto del elemento By.xpath: //p[contains(text(),'Tus preferidos')]
+12:07:28 | INFO  - Texto Obtenido: 'TUS PREFERIDOS'
+12:07:28 | INFO  - Chequeando existencia del elemento By.xpath: //h3[contains(text(),'Fragancias')]
+12:07:28 | INFO  - moviendome al elemento By.xpath: //h3[contains(text(),'Fragancias')]
+12:07:29 | INFO  - Chequeando existencia del elemento By.xpath: //title
+12:07:30 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Perfumes')]
+12:07:30 | INFO  - Texto Obtenido: 'Perfumes Nuevo'
+12:07:30 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+12:07:30 | INFO  - Texto Obtenido: '1.627 resultados'
+12:07:30 | INFO  - Asserts correctos
+12:07:30 | INFO  - ------------------Test Finished------------------
+12:07:30 | INFO  - TEST :: SUCCEDED :: testBelleza
+12:09:02 | INFO  - TEST :: STARTING :: testBelleza
+12:09:02 | INFO  - ------------------Test Started------------------
+12:09:02 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+12:09:02 | INFO  - Creating a new instance of chrome DriverWeb
+12:09:05 | INFO  - DriverWeb for chrome has been created.
+12:09:05 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:09:06 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:09:06 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Belleza')]
+12:09:08 | INFO  - Chequeando existencia del elemento By.xpath: //title
+12:09:08 | INFO  - Obteniendo texto del elemento By.xpath: //p[contains(text(),'Tus preferidos')]
+12:09:08 | INFO  - Texto Obtenido: 'TUS PREFERIDOS'
+12:09:08 | INFO  - Chequeando existencia del elemento By.xpath: //h3[contains(text(),'Fragancias')]
+12:09:08 | INFO  - moviendome al elemento By.xpath: //h3[contains(text(),'Fragancias')]
+12:09:09 | INFO  - Chequeando existencia del elemento By.xpath: //title
+12:09:10 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Perfumes')]
+12:09:10 | INFO  - Texto Obtenido: 'Perfumes Nuevo'
+12:09:10 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+12:09:11 | INFO  - Texto Obtenido: '1.627 resultados'
+12:09:11 | INFO  - Asserts correctos
+12:09:11 | INFO  - ------------------Test Finished------------------
+12:09:11 | INFO  - TEST :: SUCCEDED :: testBelleza
 </pre>
 </span>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>oct 21, 2019 12:00:09 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+<pre>oct 21, 2019 12:07:22 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 41736
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 15822
 Only local connections are allowed.
-oct 21, 2019 12:00:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+oct 21, 2019 12:07:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+oct 21, 2019 12:09:02 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 19394
+Only local connections are allowed.
+oct 21, 2019 12:09:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 </pre>
 </span>
@@ -134,7 +166,7 @@ INFORMACIÓN: Detected dialect: OSS
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at 21/10/2019 12:01:33</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 21/10/2019 12:10:04</p>
 </div>
 </div>
 </body>

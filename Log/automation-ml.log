@@ -1,93 +1,566 @@
-2019-10-21 12:00:09 | INFO  - TEST :: STARTING :: testBelleza
-2019-10-21 12:00:09 | INFO  - ------------------Test Started------------------
-2019-10-21 12:00:09 | INFO  - Getting the page http://www.MercadoLibre.com.ar
-2019-10-21 12:00:09 | INFO  - Creating a new instance of chrome DriverWeb
-2019-10-21 12:00:13 | INFO  - DriverWeb for chrome has been created.
-2019-10-21 12:00:14 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:00:19 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:00:24 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Belleza')]
-2019-10-21 12:00:30 | INFO  - Chequeando existencia del elemento By.xpath: //title
-2019-10-21 12:00:31 | INFO  - Obteniendo texto del elemento By.xpath: //p[contains(text(),'Tus preferidos')]
-2019-10-21 12:00:31 | INFO  - Texto Obtenido: 'TUS PREFERIDOS'
-2019-10-21 12:00:31 | INFO  - Chequeando existencia del elemento By.xpath: //h3[contains(text(),'Fragancias')]
-2019-10-21 12:00:31 | INFO  - moviendome al elemento By.xpath: //h3[contains(text(),'Fragancias')]
-2019-10-21 12:00:41 | INFO  - Chequeando existencia del elemento By.xpath: //title
-2019-10-21 12:00:45 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Perfumes')]
-2019-10-21 12:00:47 | INFO  - Texto Obtenido: 'Perfumes Nuevo'
-2019-10-21 12:00:47 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
-2019-10-21 12:00:47 | INFO  - Texto Obtenido: '1.627 resultados'
-2019-10-21 12:00:47 | INFO  - Asserts correctos
-2019-10-21 12:00:47 | INFO  - ------------------Test Finished------------------
-2019-10-21 12:00:47 | INFO  - TEST :: SUCCEDED :: testBelleza
-2019-10-21 12:00:47 | INFO  - TEST :: STARTING :: testHogar
-2019-10-21 12:00:47 | INFO  - ------------------Test Started------------------
-2019-10-21 12:00:47 | INFO  - Getting the page http://www.MercadoLibre.com.ar
-2019-10-21 12:00:47 | INFO  - Creating a new instance of chrome DriverWeb
-2019-10-21 12:00:50 | INFO  - DriverWeb for chrome has been created.
-2019-10-21 12:00:50 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:00:52 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:00:52 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
-2019-10-21 12:00:52 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
-2019-10-21 12:00:52 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Climatizaci')]
-2019-10-21 12:00:53 | INFO  - Chequeando existencia del elemento By.xpath: //title
-2019-10-21 12:00:54 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Clima')]
-2019-10-21 12:00:54 | INFO  - Texto Obtenido: 'Climatización'
-2019-10-21 12:00:54 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
-2019-10-21 12:00:54 | INFO  - Texto Obtenido: '62.196 resultados'
-2019-10-21 12:00:54 | INFO  - Asserts correctos
-2019-10-21 12:00:54 | INFO  - ------------------Test Finished------------------
-2019-10-21 12:00:54 | INFO  - TEST :: SUCCEDED :: testHogar
-2019-10-21 12:00:55 | INFO  - TEST :: STARTING :: testJuguete
-2019-10-21 12:00:55 | INFO  - ------------------Test Started------------------
-2019-10-21 12:00:55 | INFO  - Getting the page http://www.MercadoLibre.com.ar
-2019-10-21 12:00:55 | INFO  - Creating a new instance of chrome DriverWeb
-2019-10-21 12:00:57 | INFO  - DriverWeb for chrome has been created.
-2019-10-21 12:00:57 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:01:05 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:01:06 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Juguetes')]
-2019-10-21 12:01:06 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Juguetes')]
-2019-10-21 12:01:06 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Cuarto')]
-2019-10-21 12:01:06 | INFO  - Chequeando existencia del elemento By.xpath: //title
-2019-10-21 12:01:07 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Cuarto')]
-2019-10-21 12:01:08 | INFO  - Texto Obtenido: 'Cuarto del Bebé'
-2019-10-21 12:01:08 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
-2019-10-21 12:01:08 | INFO  - Texto Obtenido: '27.909 resultados'
-2019-10-21 12:01:08 | INFO  - Asserts correctos
-2019-10-21 12:01:08 | INFO  - ------------------Test Finished------------------
-2019-10-21 12:01:08 | INFO  - TEST :: SUCCEDED :: testJuguete
-2019-10-21 12:01:09 | INFO  - TEST :: STARTING :: testTecnologia
-2019-10-21 12:01:09 | INFO  - ------------------Test Started------------------
-2019-10-21 12:01:09 | INFO  - Getting the page http://www.MercadoLibre.com.ar
-2019-10-21 12:01:09 | INFO  - Creating a new instance of chrome DriverWeb
-2019-10-21 12:01:11 | INFO  - DriverWeb for chrome has been created.
-2019-10-21 12:01:11 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:01:13 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:01:13 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Tecnología')]
-2019-10-21 12:01:17 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Tecnología')]
-2019-10-21 12:01:17 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]
-2019-10-21 12:01:17 | INFO  - Chequeando existencia del elemento By.xpath: //title
-2019-10-21 12:01:19 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Celulares')]
-2019-10-21 12:01:20 | INFO  - Texto Obtenido: 'Celulares y Smartphones'
-2019-10-21 12:01:20 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
-2019-10-21 12:01:21 | INFO  - Texto Obtenido: '92.177 resultados'
-2019-10-21 12:01:21 | INFO  - Asserts correctos
-2019-10-21 12:01:21 | INFO  - ------------------Test Finished------------------
-2019-10-21 12:01:21 | INFO  - TEST :: SUCCEDED :: testTecnologia
-2019-10-21 12:01:21 | INFO  - TEST :: STARTING :: testTextil
-2019-10-21 12:01:21 | INFO  - ------------------Test Started------------------
-2019-10-21 12:01:21 | INFO  - Getting the page http://www.MercadoLibre.com.ar
-2019-10-21 12:01:21 | INFO  - Creating a new instance of chrome DriverWeb
-2019-10-21 12:01:24 | INFO  - DriverWeb for chrome has been created.
-2019-10-21 12:01:24 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:01:29 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
-2019-10-21 12:01:29 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Herramientas')]
-2019-10-21 12:01:30 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Herramientas')]
-2019-10-21 12:01:30 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Textil')]
-2019-10-21 12:01:30 | INFO  - Chequeando existencia del elemento By.xpath: //title
-2019-10-21 12:01:31 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Textil')]
-2019-10-21 12:01:32 | INFO  - Texto Obtenido: 'Industria Textil'
-2019-10-21 12:01:32 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
-2019-10-21 12:01:32 | INFO  - Texto Obtenido: '26.296 resultados'
-2019-10-21 12:01:32 | INFO  - Asserts correctos
-2019-10-21 12:01:32 | INFO  - ------------------Test Finished------------------
-2019-10-21 12:01:32 | INFO  - TEST :: SUCCEDED :: testTextil
+2019-10-21 12:07:22 | INFO  - TEST :: STARTING :: testBelleza
+2019-10-21 12:07:22 | INFO  - ------------------Test Started------------------
+2019-10-21 12:07:22 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:07:22 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:07:26 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:07:26 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:07:27 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:07:28 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Belleza')]
+2019-10-21 12:07:28 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:07:28 | INFO  - Obteniendo texto del elemento By.xpath: //p[contains(text(),'Tus preferidos')]
+2019-10-21 12:07:28 | INFO  - Texto Obtenido: 'TUS PREFERIDOS'
+2019-10-21 12:07:28 | INFO  - Chequeando existencia del elemento By.xpath: //h3[contains(text(),'Fragancias')]
+2019-10-21 12:07:28 | INFO  - moviendome al elemento By.xpath: //h3[contains(text(),'Fragancias')]
+2019-10-21 12:07:29 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:07:30 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Perfumes')]
+2019-10-21 12:07:30 | INFO  - Texto Obtenido: 'Perfumes Nuevo'
+2019-10-21 12:07:30 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:07:30 | INFO  - Texto Obtenido: '1.627 resultados'
+2019-10-21 12:07:30 | INFO  - Asserts correctos
+2019-10-21 12:07:30 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:07:30 | INFO  - TEST :: SUCCEDED :: testBelleza
+2019-10-21 12:07:31 | INFO  - TEST :: STARTING :: testHogar
+2019-10-21 12:07:31 | INFO  - ------------------Test Started------------------
+2019-10-21 12:07:31 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:07:31 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:07:33 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:07:33 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:07:35 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:07:35 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+2019-10-21 12:07:36 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+2019-10-21 12:07:36 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Climatizaci')]
+2019-10-21 12:07:36 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:07:37 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Clima')]
+2019-10-21 12:07:38 | INFO  - Texto Obtenido: 'Climatización'
+2019-10-21 12:07:38 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:07:38 | INFO  - Texto Obtenido: '62.188 resultados'
+2019-10-21 12:07:38 | INFO  - Asserts correctos
+2019-10-21 12:07:38 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:07:38 | INFO  - TEST :: SUCCEDED :: testHogar
+2019-10-21 12:07:39 | INFO  - TEST :: STARTING :: testJuguete
+2019-10-21 12:07:39 | INFO  - ------------------Test Started------------------
+2019-10-21 12:07:39 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:07:39 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:07:41 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:07:41 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:07:42 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:07:43 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Juguetes')]
+2019-10-21 12:07:44 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Juguetes')]
+2019-10-21 12:07:44 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Cuarto')]
+2019-10-21 12:07:44 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:07:45 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Cuarto')]
+2019-10-21 12:07:46 | INFO  - Texto Obtenido: 'Cuarto del Bebé'
+2019-10-21 12:07:46 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:07:46 | INFO  - Texto Obtenido: '27.908 resultados'
+2019-10-21 12:07:46 | INFO  - Asserts correctos
+2019-10-21 12:07:46 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:07:46 | INFO  - TEST :: SUCCEDED :: testJuguete
+2019-10-21 12:07:47 | INFO  - TEST :: STARTING :: testTecnologia
+2019-10-21 12:07:47 | INFO  - ------------------Test Started------------------
+2019-10-21 12:07:47 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:07:47 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:07:49 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:07:49 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:07:52 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:07:52 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+2019-10-21 12:08:07 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+2019-10-21 12:08:22 | ERROR - No se encontro el elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+2019-10-21 12:08:22 | Exception - No se encontro el elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //header//a[contains(text(),'Tecnología')] (tried for 6 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at Pages.BasePage.get(BasePage.java:30) [main/:?]
+	at Pages.BasePage.get(BasePage.java:23) [main/:?]
+	at Pages.BasePage.moveToElement(BasePage.java:49) [main/:?]
+	at Pages.HeaderPage.hoverTecnologia(HeaderPage.java:43) [main/:?]
+	at Steps.HeaderSteps.clickCelulares(HeaderSteps.java:20) [test/:?]
+	at Tests.TestTecnologia.testTecnologia(TestTecnologia.java:20) [test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-5.2.1.jar:5.2.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-5.2.1.jar:5.2.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) [gradle-testing-base-5.2.1.jar:5.2.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-5.2.1.jar:5.2.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-5.2.1.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//header//a[contains(text(),'Tecnología')]"}
+  (Session info: chrome=77.0.3865.120)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRACTIAARNB823', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\aneyra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.120, webStorageEnabled: true}
+Session ID: 5938ba25dbae1f12134b1d7c56b2e205
+*** Element info: {Using=xpath, value=//header//a[contains(text(),'Tecnología')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_181]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_181]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 66 more
+2019-10-21 12:08:22 | ERROR - Ocurrio un error al desplazarse al elemento: By.xpath: //header//a[contains(text(),'Tecnología')]
+2019-10-21 12:08:22 | Exception - Ocurrio un error al desplazarse al elemento: By.xpath: //header//a[contains(text(),'Tecnología')]
+org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'scrollIntoView' of null
+  (Session info: chrome=77.0.3865.120)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRACTIAARNB823', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\aneyra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.120, webStorageEnabled: true}
+Session ID: 5938ba25dbae1f12134b1d7c56b2e205
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_181]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_181]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at Pages.BasePage.moveToElement(BasePage.java:50) [main/:?]
+	at Pages.HeaderPage.hoverTecnologia(HeaderPage.java:43) [main/:?]
+	at Steps.HeaderSteps.clickCelulares(HeaderSteps.java:20) [test/:?]
+	at Tests.TestTecnologia.testTecnologia(TestTecnologia.java:20) [test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-5.2.1.jar:5.2.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-5.2.1.jar:5.2.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) [gradle-testing-base-5.2.1.jar:5.2.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-5.2.1.jar:5.2.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-5.2.1.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2019-10-21 12:08:22 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]
+2019-10-21 12:08:53 | ERROR - No se encontro el elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]
+2019-10-21 12:08:53 | Exception - No se encontro el elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')] (tried for 6 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272) ~[selenium-support-3.141.59.jar:?]
+	at Pages.BasePage.get(BasePage.java:30) [main/:?]
+	at Pages.BasePage.get(BasePage.java:23) [main/:?]
+	at Pages.BasePage.clickElement(BasePage.java:62) [main/:?]
+	at Pages.HeaderPage.clickCelulares(HeaderPage.java:63) [main/:?]
+	at Steps.HeaderSteps.clickCelulares(HeaderSteps.java:21) [test/:?]
+	at Tests.TestTecnologia.testTecnologia(TestTecnologia.java:20) [test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-5.2.1.jar:5.2.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-5.2.1.jar:5.2.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) [gradle-testing-base-5.2.1.jar:5.2.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-5.2.1.jar:5.2.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-5.2.1.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]"}
+  (Session info: chrome=77.0.3865.120)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRACTIAARNB823', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\aneyra\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.120, webStorageEnabled: true}
+Session ID: 5938ba25dbae1f12134b1d7c56b2e205
+*** Element info: {Using=xpath, value=//header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_181]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_181]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	... 66 more
+2019-10-21 12:08:53 | ERROR - Ocurrio un error al cliquear el elemento: By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]
+2019-10-21 12:08:53 | Exception - Ocurrio un error al cliquear el elemento: By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]
+java.lang.NullPointerException: null
+	at Pages.BasePage.clickElement(BasePage.java:62) [main/:?]
+	at Pages.HeaderPage.clickCelulares(HeaderPage.java:63) [main/:?]
+	at Steps.HeaderSteps.clickCelulares(HeaderSteps.java:21) [test/:?]
+	at Tests.TestTecnologia.testTecnologia(TestTecnologia.java:20) [test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) [gradle-testing-jvm-5.2.1.jar:5.2.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-5.2.1.jar:5.2.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-5.2.1.jar:5.2.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) [gradle-testing-base-5.2.1.jar:5.2.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-5.2.1.jar:5.2.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-5.2.1.jar:5.2.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-5.2.1.jar:5.2.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2019-10-21 12:08:53 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:08:53 | INFO  - TEST :: FAILED :: testTecnologia
+2019-10-21 12:08:53 | INFO  - TEST :: STARTING :: testTextil
+2019-10-21 12:08:53 | INFO  - ------------------Test Started------------------
+2019-10-21 12:08:53 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:08:53 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:08:55 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:08:55 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:08:57 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:08:58 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Herramientas')]
+2019-10-21 12:08:59 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Herramientas')]
+2019-10-21 12:08:59 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Textil')]
+2019-10-21 12:08:59 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:09:01 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Textil')]
+2019-10-21 12:09:01 | INFO  - Texto Obtenido: 'Industria Textil'
+2019-10-21 12:09:01 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:09:01 | INFO  - Texto Obtenido: '26.302 resultados'
+2019-10-21 12:09:01 | INFO  - Asserts correctos
+2019-10-21 12:09:01 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:09:01 | INFO  - TEST :: SUCCEDED :: testTextil
+2019-10-21 12:09:02 | INFO  - TEST :: STARTING :: testBelleza
+2019-10-21 12:09:02 | INFO  - ------------------Test Started------------------
+2019-10-21 12:09:02 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:09:02 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:09:05 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:09:05 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:06 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:06 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Belleza')]
+2019-10-21 12:09:08 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:09:08 | INFO  - Obteniendo texto del elemento By.xpath: //p[contains(text(),'Tus preferidos')]
+2019-10-21 12:09:08 | INFO  - Texto Obtenido: 'TUS PREFERIDOS'
+2019-10-21 12:09:08 | INFO  - Chequeando existencia del elemento By.xpath: //h3[contains(text(),'Fragancias')]
+2019-10-21 12:09:08 | INFO  - moviendome al elemento By.xpath: //h3[contains(text(),'Fragancias')]
+2019-10-21 12:09:09 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:09:10 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Perfumes')]
+2019-10-21 12:09:10 | INFO  - Texto Obtenido: 'Perfumes Nuevo'
+2019-10-21 12:09:10 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:09:11 | INFO  - Texto Obtenido: '1.627 resultados'
+2019-10-21 12:09:11 | INFO  - Asserts correctos
+2019-10-21 12:09:11 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:09:11 | INFO  - TEST :: SUCCEDED :: testBelleza
+2019-10-21 12:09:11 | INFO  - TEST :: STARTING :: testHogar
+2019-10-21 12:09:11 | INFO  - ------------------Test Started------------------
+2019-10-21 12:09:11 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:09:11 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:09:13 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:09:13 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:16 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:16 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+2019-10-21 12:09:18 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+2019-10-21 12:09:18 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Climatizaci')]
+2019-10-21 12:09:18 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:09:20 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Clima')]
+2019-10-21 12:09:20 | INFO  - Texto Obtenido: 'Climatización'
+2019-10-21 12:09:20 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:09:21 | INFO  - Texto Obtenido: '62.200 resultados'
+2019-10-21 12:09:21 | INFO  - Asserts correctos
+2019-10-21 12:09:21 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:09:21 | INFO  - TEST :: SUCCEDED :: testHogar
+2019-10-21 12:09:21 | INFO  - TEST :: STARTING :: testJuguete
+2019-10-21 12:09:21 | INFO  - ------------------Test Started------------------
+2019-10-21 12:09:21 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:09:21 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:09:24 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:09:24 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:25 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:25 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Juguetes')]
+2019-10-21 12:09:26 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Juguetes')]
+2019-10-21 12:09:26 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Cuarto')]
+2019-10-21 12:09:26 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:09:27 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Cuarto')]
+2019-10-21 12:09:28 | INFO  - Texto Obtenido: 'Cuarto del Bebé'
+2019-10-21 12:09:28 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:09:28 | INFO  - Texto Obtenido: '27.910 resultados'
+2019-10-21 12:09:28 | INFO  - Asserts correctos
+2019-10-21 12:09:28 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:09:28 | INFO  - TEST :: SUCCEDED :: testJuguete
+2019-10-21 12:09:28 | INFO  - TEST :: STARTING :: testTecnologia
+2019-10-21 12:09:28 | INFO  - ------------------Test Started------------------
+2019-10-21 12:09:28 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:09:28 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:09:31 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:09:31 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:32 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:33 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+2019-10-21 12:09:34 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Tecnología')]
+2019-10-21 12:09:34 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Celulares y Smartphones')]
+2019-10-21 12:09:34 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:09:36 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Celulares')]
+2019-10-21 12:09:37 | INFO  - Texto Obtenido: 'Celulares y Smartphones'
+2019-10-21 12:09:37 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:09:37 | INFO  - Texto Obtenido: '92.232 resultados'
+2019-10-21 12:09:37 | INFO  - Asserts correctos
+2019-10-21 12:09:37 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:09:37 | INFO  - TEST :: SUCCEDED :: testTecnologia
+2019-10-21 12:09:38 | INFO  - TEST :: STARTING :: testTextil
+2019-10-21 12:09:38 | INFO  - ------------------Test Started------------------
+2019-10-21 12:09:38 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:09:38 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:09:40 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:09:40 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:41 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:42 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Herramientas')]
+2019-10-21 12:09:42 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Herramientas')]
+2019-10-21 12:09:42 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Textil')]
+2019-10-21 12:09:42 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:09:43 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Textil')]
+2019-10-21 12:09:44 | INFO  - Texto Obtenido: 'Industria Textil'
+2019-10-21 12:09:44 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+2019-10-21 12:09:45 | INFO  - Texto Obtenido: '26.302 resultados'
+2019-10-21 12:09:45 | INFO  - Asserts correctos
+2019-10-21 12:09:45 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:09:45 | INFO  - TEST :: SUCCEDED :: testTextil
+2019-10-21 12:09:45 | INFO  - TEST :: STARTING :: testPrecioPublicacionVehiculos
+2019-10-21 12:09:45 | INFO  - ------------------Test Started------------------
+2019-10-21 12:09:45 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+2019-10-21 12:09:45 | INFO  - Creating a new instance of chrome DriverWeb
+2019-10-21 12:09:47 | INFO  - DriverWeb for chrome has been created.
+2019-10-21 12:09:47 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:49 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+2019-10-21 12:09:49 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Veh')]
+2019-10-21 12:09:50 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:09:50 | INFO  - Chequeando existencia del elemento By.xpath: //form//button[@class='ch-btn nav-search-classi-submit']
+2019-10-21 12:09:56 | INFO  - moviendome al elemento By.xpath: //form//button[@class='ch-btn nav-search-classi-submit']
+2019-10-21 12:09:56 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:09:58 | INFO  - Chequeando existencia del elemento By.xpath: //span[@class='filter-name'][contains(text(),'Capital Federal')]
+2019-10-21 12:09:59 | INFO  - Chequeando existencia del elemento By.xpath: //section[@id='results-section']//ol[@id='searchResults']/li[1]//span[@class='main-title']
+2019-10-21 12:10:01 | INFO  - Obteniendo texto del elemento By.xpath: //section[@id='results-section']//ol[@id='searchResults']/li[1]//span[@class='main-title']
+2019-10-21 12:10:01 | INFO  - Texto Obtenido: 'Bmw Serie 3 2.0 328i Executive At'
+2019-10-21 12:10:01 | INFO  - Chequeando existencia del elemento By.xpath: //section[@id='results-section']//ol[@id='searchResults']/li[1]//span[@class='price__fraction']
+2019-10-21 12:10:01 | INFO  - Obteniendo texto del elemento By.xpath: //section[@id='results-section']//ol[@id='searchResults']/li[1]//span[@class='price__fraction']
+2019-10-21 12:10:01 | INFO  - Texto Obtenido: '339.000'
+2019-10-21 12:10:01 | INFO  - Chequeando existencia del elemento By.xpath: //section[@id='results-section']//ol[@id='searchResults']/li[1]//span[@class='price__fraction']
+2019-10-21 12:10:01 | INFO  - Chequeando existencia del elemento By.xpath: //title
+2019-10-21 12:10:02 | INFO  - Obteniendo texto del elemento By.xpath: //fieldset//span[@class='price-tag-fraction']
+2019-10-21 12:10:03 | INFO  - Texto Obtenido: '339.000'
+2019-10-21 12:10:03 | INFO  - Obteniendo texto del elemento By.xpath: //h1[@class='item-title__primary ']
+2019-10-21 12:10:03 | INFO  - Texto Obtenido: 'BMW Serie 3 2.0 328i Executive At'
+2019-10-21 12:10:03 | INFO  - ------------------Test Finished------------------
+2019-10-21 12:10:03 | INFO  - TEST :: FAILED :: testPrecioPublicacionVehiculos

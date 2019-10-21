@@ -12,34 +12,34 @@ public class HeaderSteps extends BaseSteps<HeaderPage> {
     public void clickClimatizacion(){
         page.hoverCategorias();
         page.hoverHogar();
-        Assert.assertTrue(page.clickClimatizacion());
+        Assert.assertTrue("no fue posible hacer click sobre 'climatizacion'",page.clickClimatizacion());
     }
 
     public void clickCelulares(){
         page.hoverCategorias();
         page.hoverTecnologia();
-        Assert.assertTrue(page.clickCelulares());
+        Assert.assertTrue("no fue posible hacer click sobre 'celulares'",page.clickCelulares());
     }
 
     public void clickTextil(){
         page.hoverCategorias();
         page.hoverHerramientas();
-        Assert.assertTrue(page.clickTextil());
+        Assert.assertTrue("no fue posible hacer click sobre 'textil'",page.clickTextil());
     }
 
     public void clickCuarto(){
         page.hoverCategorias();
         page.hoverJuguetes();
-        Assert.assertTrue(page.clickCuarto());
+        Assert.assertTrue("no fue posible hacer click sobre 'cuarto de bebe'",page.clickCuarto());
     }
 
     public void clickBelleza(){
         page.hoverCategorias();
-        Assert.assertTrue(page.clickBelleza());
+        Assert.assertTrue("no fue posible hacer click sobre 'belleza'",page.clickBelleza());
     }
 
     public void clickVehiculos(){
         page.hoverCategorias();
-        Assert.assertTrue(page.clickVehiculos());
+        Assert.assertTrue("no fue posible hacer click sobre 'vehiculos'",page.clickVehiculos());
     }
 }

@@ -21,7 +21,7 @@ public class TestVehiculos extends BaseTest {
     public ReportAggregatorTestWatcher myTestWatcher = new ReportAggregatorTestWatcher();
 
     @Before
-    private void clearData() {
+    public void clearData() {
         descripcion="";
         precio="";
     }

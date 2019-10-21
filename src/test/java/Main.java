@@ -1,8 +1,8 @@
-import Steps.Suites.TestSuite1;
+import Suites.TestSuite1;
+import Suites.TestSuite2;
 import org.junit.internal.TextListener;
 import org.junit.runner.JUnitCore;
 
-//TODO CREAR UN EJECUTOR DE TESTS PARA EL FAT JAR
 public class Main {
 
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Main {
 
         JUnitCore core = new JUnitCore();
         core.addListener(new TextListener(System.out));
-        core.run(TestSuite1.class);
+        core.run(TestSuite1.class, TestSuite2.class);
     }
 
 

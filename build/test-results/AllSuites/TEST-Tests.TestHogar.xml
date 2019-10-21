@@ -1,31 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests.TestHogar" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-21T15:00:47" hostname="PRACTIAARNB823" time="7.047">
+<testsuite name="Tests.TestHogar" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-21T15:07:31" hostname="PRACTIAARNB823" time="109.69">
   <properties/>
-  <testcase name="testHogar" classname="Tests.TestHogar" time="7.047"/>
-  <system-out><![CDATA[12:00:47 | INFO  - TEST :: STARTING :: testHogar
-12:00:47 | INFO  - ------------------Test Started------------------
-12:00:47 | INFO  - Getting the page http://www.MercadoLibre.com.ar
-12:00:47 | INFO  - Creating a new instance of chrome DriverWeb
-12:00:50 | INFO  - DriverWeb for chrome has been created.
-12:00:50 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
-12:00:52 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
-12:00:52 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
-12:00:52 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
-12:00:52 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Climatizaci')]
-12:00:53 | INFO  - Chequeando existencia del elemento By.xpath: //title
-12:00:54 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Clima')]
-12:00:54 | INFO  - Texto Obtenido: 'Climatización'
-12:00:54 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
-12:00:54 | INFO  - Texto Obtenido: '62.196 resultados'
-12:00:54 | INFO  - Asserts correctos
-12:00:54 | INFO  - ------------------Test Finished------------------
-12:00:54 | INFO  - TEST :: SUCCEDED :: testHogar
+  <testcase name="testHogar" classname="Tests.TestHogar" time="7.05"/>
+  <testcase name="testHogar" classname="Tests.TestHogar" time="9.462"/>
+  <system-out><![CDATA[12:07:31 | INFO  - TEST :: STARTING :: testHogar
+12:07:31 | INFO  - ------------------Test Started------------------
+12:07:31 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+12:07:31 | INFO  - Creating a new instance of chrome DriverWeb
+12:07:33 | INFO  - DriverWeb for chrome has been created.
+12:07:33 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:07:35 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:07:35 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+12:07:36 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+12:07:36 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Climatizaci')]
+12:07:36 | INFO  - Chequeando existencia del elemento By.xpath: //title
+12:07:37 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Clima')]
+12:07:38 | INFO  - Texto Obtenido: 'Climatización'
+12:07:38 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+12:07:38 | INFO  - Texto Obtenido: '62.188 resultados'
+12:07:38 | INFO  - Asserts correctos
+12:07:38 | INFO  - ------------------Test Finished------------------
+12:07:38 | INFO  - TEST :: SUCCEDED :: testHogar
+12:09:11 | INFO  - TEST :: STARTING :: testHogar
+12:09:11 | INFO  - ------------------Test Started------------------
+12:09:11 | INFO  - Getting the page http://www.MercadoLibre.com.ar
+12:09:11 | INFO  - Creating a new instance of chrome DriverWeb
+12:09:13 | INFO  - DriverWeb for chrome has been created.
+12:09:13 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:09:16 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Categor')]
+12:09:16 | INFO  - Chequeando existencia del elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+12:09:18 | INFO  - moviendome al elemento By.xpath: //header//a[contains(text(),'Hogar y Electrodom')]
+12:09:18 | INFO  - Chequeando existencia del elemento By.xpath: //header//div[@class='nav-categs-detail__body']//a[contains(text(),'Climatizaci')]
+12:09:18 | INFO  - Chequeando existencia del elemento By.xpath: //title
+12:09:20 | INFO  - Obteniendo texto del elemento By.xpath: //h1[contains(text(),'Clima')]
+12:09:20 | INFO  - Texto Obtenido: 'Climatización'
+12:09:20 | INFO  - Obteniendo texto del elemento By.xpath: //div[@class='quantity-results']
+12:09:21 | INFO  - Texto Obtenido: '62.200 resultados'
+12:09:21 | INFO  - Asserts correctos
+12:09:21 | INFO  - ------------------Test Finished------------------
+12:09:21 | INFO  - TEST :: SUCCEDED :: testHogar
 ]]></system-out>
-  <system-err><![CDATA[oct 21, 2019 12:00:47 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[oct 21, 2019 12:07:31 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 34007
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 7322
 Only local connections are allowed.
-oct 21, 2019 12:00:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+oct 21, 2019 12:07:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+oct 21, 2019 12:09:11 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 27457
+Only local connections are allowed.
+oct 21, 2019 12:09:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 ]]></system-err>
 </testsuite>
